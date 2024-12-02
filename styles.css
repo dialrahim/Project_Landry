@@ -1,0 +1,144 @@
+/*CSS for size of the logo in the index page*/
+img{
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#secondImage{
+    max-width: 700px;
+    height: 330px;
+}
+
+#pageOneLogo{
+    max-width: 100%;
+    height: 110px;
+    float: left;
+}
+
+#headerLogo{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CSS for paragraph and links in the index page*/
+.index{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#button{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(59, 130, 240);
+    height: 47px;
+    width: 150px;
+    border-radius: 12px;
+    border-width: 0;
+}
+
+#bodyCss{
+    /*Separate the page in two different colors*/
+    background-image: linear-gradient(to bottom, rgb(31, 41, 55) 0%, rgb(31, 41, 55) 50%, white 50%, white 100% );
+    min-height: 100vh;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titleheader{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.pageOneContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.item1-2 {
+    flex-basis: 600px;
+    align-items: flex-start;
+}
+
+.item1-3{
+    margin: 10px;
+}
+
+.secondContainerText{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.item2-1{
+    flex-basis: 600px;
+}
+
+.thirdContainer{
+    text-align: center; 
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#thirdContainerText{
+    font-size: 50px;
+    color:black;
+    font-weight: 900;
+    margin: auto;
+}
+
+.fourthContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1500px;
+    margin: auto;
+}
+
+.item3{
+    flex: 1 0 300px;
+    border: 4px solid rgb(59, 148, 248);
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 200px;
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+  }
+
+.item3 img{
+    object-fit: fill;
+}
+
+.fifthContainer{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    width: 1500px;
+    margin: auto;
+}
+
+.item4{
+    flex: 1 0 300px;
+    margin: 5px;
+    min-height: 50px;
+    padding-top:0px ;
+    text-align: center;
+}
